@@ -7,7 +7,7 @@ include_directories(include)
 
 add_library(rkc_string_literal INTERFACE)
 add_library(rkc::string_literal ALIAS rkc_string_literal)
-target_include_directories(rkc_string_literal INTERFACE include)
+target_include_directories(rkc_string_literal INTERFACE include/rkc)
 
 set(RKC_STRING_LITERAL_VERSION 0.1.0)
 set(RKC_STRING_LITERAL_GIT_REPOSITORY "https://github.com/yourusername/rkc_string_literal.git")

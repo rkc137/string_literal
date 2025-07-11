@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "string_literal.hpp"
+#include <rkc/string_literal.hpp>
 
 template <rkc::string_literal_t str>
 std::string std_string_from_template()
